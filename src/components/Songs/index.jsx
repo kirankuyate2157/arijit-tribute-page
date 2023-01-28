@@ -599,7 +599,7 @@ const Songs = () => {
 
                 <div className=" w-1/3 ">
                     <div className="py-8 md:px-8 px-5 font-bold text-red-700 text-2xl md:text-4xl">ALBUMS</div>
-                    <Scrollbars style={{ height: 650 }} className="bg-red-900 onClick={handleClick} ">
+                    <Scrollbars style={{ height: 650 }} className=" onClick={handleClick} ">
                         {data.map((alb, index) => (
                             <button onClick={() => Click(index)}>
 
